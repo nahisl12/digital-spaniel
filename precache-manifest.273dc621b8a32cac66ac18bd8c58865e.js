@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d36193da970612c6fb4b030b6d15408b",
+    "revision": "f601544260763824cbdb29b984d990c5",
     "url": "/digital-spaniel/index.html"
   },
   {
-    "revision": "72037c2bf23d0e150bce",
-    "url": "/digital-spaniel/static/css/main.08b870fd.chunk.css"
+    "revision": "bd0ac0cbd5741fae2e19",
+    "url": "/digital-spaniel/static/css/main.3982045b.chunk.css"
   },
   {
     "revision": "c55fef89b24b18bd13bb",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/digital-spaniel/static/js/3.7fc12770.chunk.js"
   },
   {
-    "revision": "72037c2bf23d0e150bce",
+    "revision": "bd0ac0cbd5741fae2e19",
     "url": "/digital-spaniel/static/js/main.7966237d.chunk.js"
   },
   {
