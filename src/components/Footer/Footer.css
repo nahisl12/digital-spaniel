@@ -126,6 +126,12 @@
 
 .social-icons {
   padding-right: 1.5rem;
+  transition: 0.2s ease;
+}
+
+.social-icons:hover {
+  transform: scale(1.15, 1.15);
+  transition: 0.2s ease;
 }
 
 /* MEDIA QUERIES */
