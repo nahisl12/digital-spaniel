@@ -1,0 +1,27 @@
+.editable-button li {
+  color: #19293A;
+  font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.editable-button li a {
+  position: relative;
+  color: #19293A;
+}
+
+.editable-button li a::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #C0345E;
+  transform: scaleY(2);
+  transition: 0.3s;
+  opacity: 0;
+}
+
+.editable-button li a:hover::before {
+  transform: scaleY(1);
+  opacity: 1;
+}

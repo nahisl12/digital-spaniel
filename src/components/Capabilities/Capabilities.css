@@ -1,0 +1,202 @@
+.capabilities-container {
+  padding: 5rem 3rem 5rem 3rem;
+  background-color: #EDEFF1;
+}
+
+.flex-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+/* DESCRIPTION SECTION */
+#left-side {
+  width: 40%;
+}
+
+#left-side h2 {
+  font-size: 2.3rem;
+}
+
+#title-top {
+  color: #19293A;
+  font-weight: 600;
+}
+
+#title-bottom {
+  color: #506473;
+  font-weight: 600;
+}
+
+#left-side p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  color: #506473;
+  width: 90%;
+}
+
+/* BRAND SECTION */
+#right-side {
+  width: 45%;
+  display: grid;
+  grid-template-areas: "brand marketing"
+                        "development marketing";
+                        
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.brand-strategy {
+  grid-area: brand
+};
+
+.development {
+  grid-area: development;
+}
+
+.section-marketing {
+  grid-area: marketing;
+  /* margin-left: 4rem; */
+}
+
+.section-links {
+  padding-top: 1.5rem;
+}
+
+.section-links h4 {
+  text-transform: uppercase;
+  color: #19293A;
+}
+
+.section-links ul li {
+  padding-top: 1rem;
+  font-weight: 600;
+  color: #506473;
+}
+
+.section-links li a {
+  color: #506473;
+  font-weight: 600;
+}
+
+.arrow-container {
+  background: #506473;
+  border-radius: 50%;
+  width: 23px;
+  height: 23px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.arrow {
+  color: white;
+}
+
+.section-links li a:link {
+  color: #506473;
+}
+
+.section-links li a:visited {
+  color: #506473;
+}
+
+.section-links li a:hover {
+  color: #506473;
+}
+
+.section-links li:hover .arrow-container {
+  display: inline-block;
+  margin-left: 0.5rem;
+  animation: arrow-slide 0.3s ease;
+}
+
+.selected .arrow-container {
+  display: inline-block;
+  margin-left: 0.5rem;
+  animation: arrow-slide 0.3s ease;
+}
+
+/* ANIMATION */
+@keyframes arrow-slide {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(5px, 0);
+  }
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1200px) {
+  .flex-container {
+    width: 100%;
+  }
+  
+  .section-marketing {
+    margin-left: 2rem;
+  }
+  
+}
+
+@media only screen and (max-width: 904px) {
+  .flex-container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-marketing {
+    margin-left: 0rem;
+  }
+
+  #left-side {
+    width: 95%;
+    margin-bottom: 4rem;
+  }
+
+  #right-side {
+  width: 95%;
+  } 
+}
+
+@media only screen and (max-width: 540px) {
+  #left-side {
+    width: 100%;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  #left-side p {
+    width: 100%;
+  }
+
+  #right-side {
+  width: 90%;
+  }
+  
+  #right-side {
+    display: grid;
+    grid-template-areas: "brand"
+                          "development"
+                          "marketing";
+                          
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+}
