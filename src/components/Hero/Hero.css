@@ -26,12 +26,12 @@
 }
 
 #title-one {
-  color: #19293A;
+  color: var(--primary-title-colour);
   font-weight: 600;
 }
 
 #title-two {
-  color: #506473;
+  color: var(--secondary-title-colour);
   font-weight: 600;
 }
 
@@ -39,7 +39,7 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 1.1rem;
-  color: #506473;
+  color: var(--secondary-title-colour);
 }
 
 /* RIGHT SIDE OF HERO SECTION */

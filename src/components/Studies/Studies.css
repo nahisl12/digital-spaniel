@@ -14,12 +14,12 @@
 .section-header h1 {
   font-size: 3rem;
   font-weight: 600;
-  color: #19293A;
+  color: var(--primary-title-colour);
   padding-bottom: 1rem;
 }
 
 .section-header p {
-  color: #506473;
+  color: var(--secondary-title-colour);
 }
 
 .images-container {
@@ -58,8 +58,8 @@
   flex-wrap: wrap;
   padding-top: 1rem;
   padding-left: 1rem;
-  background: #19293A;
-  color: #fff;
+  background: var(--primary-title-colour);
+  color: var(--primary-link-colour);
 }
 
 .information-box h3 {
@@ -79,8 +79,8 @@
 }
 
 .information-box li a {
-  color: #fff;
-  border-bottom: 2px solid #fff;
+  color: var(--primary-link-colour);
+  border-bottom: 2px solid var(--primary-link-colour);
 }
 
 #box-buttons {
@@ -108,7 +108,7 @@
   width: 30px;
   height: 30px;
   border: none;
-  background: #fff;
+  background: var(--primary-link-colour);
   transition: 0.2s ease;
 }
 
@@ -144,7 +144,7 @@
   }
   
   .section-header p {
-    color: #506473;
+    color: var(--secondary-title-colour);
     font-size: 1.25rem;
   }
 
@@ -208,8 +208,8 @@
   }
   
   .information-box li a {
-    color: #fff;
-    border-bottom: 2px solid #fff;
+    color: var(--primary-link-colour);
+    border-bottom: 2px solid var(--primary-link-colour);
   }
 }
 

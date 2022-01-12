@@ -22,12 +22,12 @@
 }
 
 #title-top {
-  color: #19293A;
+  color: var(--primary-title-colour);
   font-weight: 600;
 }
 
 #title-bottom {
-  color: #506473;
+  color: var(--secondary-title-colour);
   font-weight: 600;
 }
 
@@ -35,7 +35,7 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-size: 1.1rem;
-  color: #506473;
+  color: var(--secondary-title-colour);
   width: 90%;
 }
 
@@ -70,22 +70,22 @@
 
 .section-links h4 {
   text-transform: uppercase;
-  color: #19293A;
+  color: var(--primary-title-colour)
 }
 
 .section-links ul li {
   padding-top: 1rem;
   font-weight: 600;
-  color: #506473;
+  color: var(--secondary-title-colour);
 }
 
 .section-links li a {
-  color: #506473;
+  color: var(--secondary-title-colour);
   font-weight: 600;
 }
 
 .arrow-container {
-  background: #506473;
+  background: var(--secondary-title-colour);
   border-radius: 50%;
   width: 23px;
   height: 23px;
@@ -103,15 +103,15 @@
 }
 
 .section-links li a:link {
-  color: #506473;
+  color: var(--secondary-title-colour);
 }
 
 .section-links li a:visited {
-  color: #506473;
+  color: var(--secondary-title-colour);
 }
 
 .section-links li a:hover {
-  color: #506473;
+  color: var(--secondary-title-colour);
 }
 
 .section-links li:hover .arrow-container {

@@ -39,35 +39,35 @@
 }
 
 .links-section h3 {
-  color: #19293A;
+  color: var(--primary-title-colour);
   font-weight: 600;
   padding-bottom: 1rem;
   text-transform: uppercase;
 }
 
 .links-section h4 {
-  color: #506473;
+  color: var(--secondary-title-colour);
   font-weight: 600;
 }
 
 .links-section p {
-  color: #506473;
+  color: var(--secondary-title-colour);
   padding-bottom: 2rem;
 }
 
 .links-section li {
-  color: #506473;
+  color: var(--secondary-title-colour);
   padding-bottom: 1.3rem;
   font-weight: 600;
 }
 
 .links-section li a {
-  color: #506473;
+  color: var(--secondary-title-colour);
   padding-bottom: 1rem;
 }
 
 .arrow-container {
-  background: #506473;
+  background: var(--secondary-title-colour);
   border-radius: 50%;
   width: 23px;
   height: 23px;
@@ -199,7 +199,7 @@
   }
   
   .links-section h3 {
-    color: #19293A;
+    color: var(--primary-title-colour);
     font-weight: 600;
     padding-bottom: 1rem;
     text-transform: uppercase;
@@ -234,7 +234,7 @@
   }
   
   .links-section h3 {
-    color: #19293A;
+    color: var(--primary-title-colour);
     font-weight: 600;
     padding-bottom: 1rem;
     text-transform: uppercase;

@@ -1,5 +1,5 @@
 .editable-button li {
-  color: #19293A;
+  color: var(--primary-title-colour);
   font-weight: 600;
   transition: 0.5s;
   cursor: pointer;
@@ -7,7 +7,7 @@
 
 .editable-button li a {
   position: relative;
-  color: #19293A;
+  color: var(--primary-title-colour);
 }
 
 .editable-button li a::before {

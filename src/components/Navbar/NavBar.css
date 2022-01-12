@@ -43,33 +43,39 @@
   list-style: none;
   cursor: pointer;
   margin-right: 1rem;
+  transition: 0.25s ease;
 };
 
 .nav-elements li a {
-  color: #fff;
+  color: var(--primary-link-colour);
   font-weight: 600;
 }
 
 .nav-elements li a:link {
-  color: #fff;
+  color: var(--primary-link-colour);
 }
 
 .nav-elements li a:visited {
-  color: #fff;
+  color: var(--primary-link-colour);
+}
+
+.nav-elements li:hover {
+  transform: scale(1.15, 1.15);
+  transition: 0.25s ease;
 }
 
 .nav-elements li a:hover {
-  color: #fff;
-  border-bottom: 2px solid #fff;
+  color: var(--primary-link-colour);
+  border-bottom: 2px solid var(--primary-link-colour);
 }
 
 .nav-elements li a:active {
   /* color: black; */
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid var(--primary-link-colour);
 }
 
 .default-link {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid var(--primary-link-colour);
 }
 
 /* Hamburger menu */
@@ -77,7 +83,8 @@
   display: none;
   border: none;
   background: none;
-  color: white;
+  color: var(--primary-link-colour);
+  transition: 0.3s ease-in-out;
 }
 
 
@@ -122,7 +129,7 @@
   };
   
   .nav-elements li a {
-    color: #fff;
+    color: var(--primary-link-colour);
     font-weight: 600;
   }
   
